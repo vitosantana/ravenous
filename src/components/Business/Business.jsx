@@ -1,23 +1,23 @@
 import styles from './Business.module.css';
 
-function Business({ imageSrc, name, address, city, state, zipCode, category, rating, reviewCount }) {
+function Business({ business }) {
     return (
        <div className={styles.business}>
         <div className={styles.imageContainer}>
-            <img src={imageSrc || "/placeholder.png"} alt={name} />
+            <img src={business.imageSrc || "/placeholder.png"} alt={business.name} />
             
             </div>
-        <h2 className={styles.name}>{name}</h2>
+        <h2 className={styles.name}>{business.name}</h2>
         
         <div className={styles.info}>
         <div className={styles.address}>
-            <p>{address}</p>
-            <p>{city}, {state} {zipCode}</p>
+            <p>{business.address}</p>
+            <p>{business.city}, {business.state} {business.zipCode}</p>
         </div>
         <div className={styles.reviews}>
-            <p className={styles.category}>{category}</p>
-            <p className={styles.rating}>{rating} stars</p>
-            <p className={styles.reviewCount}>{reviewCount} reviews</p>
+            <p className={styles.category}>{business.category}</p>
+            <p className={styles.rating}>{business.rating} stars</p>
+            <p className={styles.reviewCount}>{business.reviewCount} reviews</p>
             
         </div>
        </div>

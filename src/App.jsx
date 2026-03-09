@@ -15,7 +15,7 @@ const businesses = [
   },
   {
     id: 2,
-    name: "Louie",
+    name: "Louie",  imageSrc: "/placeholder.png",
     address: "706 De Mun Ave",
     city: "St.Louis",
     state: "Missouri",
@@ -26,7 +26,7 @@ const businesses = [
   },
   {
     id: 3,
-    name: "Sado",
+    name: "Sado",  imageSrc: "/placeholder.png",
     address: "5201 Shaw Ave",
     city: "St.Louis",
     state: "Missouri",
@@ -37,7 +37,7 @@ const businesses = [
   },
   {
     id: 4,
-    name: "Flemings Prime Steakhouse & Wine Bar",
+    name: "Flemings Prime Steakhouse & Wine Bar",  imageSrc: "/placeholder.png",
     address: "1855 S Lindbergh Blvd",
     city: "St.Louis",
     state: "Missouri",
@@ -48,7 +48,7 @@ const businesses = [
   },
   {
     id: 5,
-    name: "Braaerie by Niche",
+    name: "Braaerie by Niche",  imageSrc: "/placeholder.png",
     address: "4580 Laclede Ave",
     city: "St.Louis",
     state: "Missouri",
@@ -59,7 +59,7 @@ const businesses = [
   },
   {
     id: 6,
-    name: "Oceano Bistro",
+    name: "Oceano Bistro",  imageSrc: "/placeholder.png",
     address: "44 N Brentwood Blvd",
     city: "Clayton",
     state: "Missouri",
@@ -70,7 +70,7 @@ const businesses = [
   },
   {
      id: 7,
-    name: "Sugarfire Smoke House",
+    name: "Sugarfire Smoke House",  imageSrc: "/placeholder.png",
     address: "605 Washington Ave",
     city: "St.Louis",
     state: "Missouri",
@@ -81,7 +81,7 @@ const businesses = [
   },
   {
      id: 8,
-    name: "Ballpark Village",
+    name: "Ballpark Village",  imageSrc: "/placeholder.png",
     address: "601 Clark Ave",
     city: "St.Louis",
     state: "Missouri",
